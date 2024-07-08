@@ -9,6 +9,7 @@
         "main.blocks",
         "main.ts",
         "README.md",
+        "custom.ts",
         "t_level1.md"
     ],
     "testFiles": [
