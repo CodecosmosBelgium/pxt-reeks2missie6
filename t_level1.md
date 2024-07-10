@@ -3,7 +3,7 @@
 # level 1
 ```blocks
 player.onChat("level1", function () {
-    CodeCosmos.setup_intro()
+    CodeCosmos.setup_level1()
     for (let index = 0; index < 9; index++) {
         agent2.move_forward()
         agent.turn(LEFT_TURN)
@@ -23,7 +23,7 @@ player.onChat("level1", function () {
 
 ```template
 player.onChat("level1", function () {
-    CodeCosmos.setup_intro()
+    CodeCosmos.setup_level1()
     for (let index = 0; index < 9; index++) {
     }
     for (let index = 0; index < 9; index++) {

@@ -3,10 +3,16 @@ player.execute("/scriptevent cc:getId " + mobs.queryTarget((mobs.target(MY_AGENT
 
 //% color=190 weight=100 block="CodeCosmos"
 namespace CodeCosmos {
-    //% block="Zet klaar (Intro)"
-    //% block.loc.en="Setup (Intro)"
-    export function setup_intro() {
+    //% block="Zet klaar (level1)"
+    //% block.loc.en="Setup (level1)"
+    export function setup_level1() {
         agent.teleport(world(2451, -2, 57), 0)
+    }
+
+    //% block="Zet klaar (level2)"
+    //% block.loc.en="Setup (level2)"
+    export function setup_level2(){
+        agent.teleport(world(2446, -2, 40), NORTH)
     }
 
 }

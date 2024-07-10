@@ -3,7 +3,7 @@
 # level 2
 ```blocks
 player.onChat("level2", function () {
-    agent.teleport(world(2446, -2, 40), NORTH)
+    CodeCosmos.setup_level2()
     for (let index = 0; index < 2; index++) {
         agent.turn(RIGHT_TURN)
         for (let index = 0; index < 3; index++) {
@@ -26,7 +26,7 @@ player.onChat("level2", function () {
 
 ```template
 player.onChat("level2", function () {
-    agent.teleport(world(2446, -2, 40), NORTH);
+    CodeCosmos.setup_level2()
     
 })
 
