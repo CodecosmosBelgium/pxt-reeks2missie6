@@ -14,8 +14,8 @@ namespace CodeCosmos {
 /**
  * Your assistant in Minecraft to help you get things done.
  */
+
 //% color=#D83B01 weight=64 icon="icons/Agent_icon_white.png"
-//% groups='["other", "Actions", "Inventory"]'
 namespace agent2 {
 
     //% block="Ga vooruit"
