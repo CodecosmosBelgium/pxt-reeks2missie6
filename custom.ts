@@ -15,6 +15,13 @@ namespace CodeCosmos {
         agent.teleport(world(2446, -2, 40), NORTH)
     }
 
+    //% block="Zet klaar (level3)"
+    //% block.loc.en="Setup (level3)"
+    export function setup_level3() {
+        agent.teleport(world(2447, -2, 30), NORTH)
+    }
+
+
 }
 
 /**
