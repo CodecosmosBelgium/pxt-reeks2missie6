@@ -3,23 +3,33 @@
 # level 1
 ```blocks
 player.onChat("level1", function () {
-    CodeCosmos.setup_level1()
-    while (CodeCosmos.test_for_block_under_agent(FARMLAND)) {
-        agent.move(FORWARD, 1)
-        agent.destroy(FORWARD)
+    CodeCosmos.setup_intro()
+    for (let index = 0; index < 9; index++) {
+        agent2.move_forward()
+        agent.turn(LEFT_TURN)
+        agent2.move_forward()
+        agent.turn(RIGHT_TURN)
+    }
+    for (let index = 0; index < 9; index++) {
+        agent2.move_forward()
+        agent.turn(RIGHT_TURN)
+        agent2.move_forward()
+        agent.turn(LEFT_TURN)
     }
 })
+
 
 ```
 
 ```template
 player.onChat("level1", function () {
-    CodeCosmos.setup_level1()
-    while (CodeCosmos.test_for_block_under_agent(FARMLAND)) {
-        agent.destroy(FORWARD)
-        agent.move(FORWARD, 1)
+    CodeCosmos.setup_intro()
+    for (let index = 0; index < 9; index++) {
+    }
+    for (let index = 0; index < 9; index++) {
     }
 })
+
 ```
 
 ## Level 1
