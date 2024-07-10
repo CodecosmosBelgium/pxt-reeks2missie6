@@ -1,38 +1,25 @@
 
-/**
-* Use this file to define custom functions and blocks.
-* Read more at https://minecraft.makecode.com/blocks/custom
-*/
+player.execute("/scriptevent cc:getId " + mobs.queryTarget((mobs.target(MY_AGENT)))[0].uniqueId)
 
-enum MyEnum {
-    //% block="one"
-    One,
-    //% block="two"
-    Two
+//% color=190 weight=100 block="CodeCosmos"
+namespace CodeCosmos {
+    //% block="Zet klaar (Intro)"
+    //% block.loc.en="Setup (Intro)"
+    export function setup_intro() {
+        agent.teleport(world(2451, -2, 57), 0)
+    }
+
 }
 
 /**
- * Custom blocks
+ * Your assistant in Minecraft to help you get things done.
  */
-//% weight=100 color=#0fbc11 icon=""
-namespace custom {
-    /**
-     * TODO: describe your function here
-     * @param n describe parameter here, eg: 5
-     * @param s describe parameter here, eg: "Hello"
-     * @param e describe parameter here
-     */
-    //% block
-    export function foo(n: number, s: string, e: MyEnum): void {
-        // Add code here
-    }
+//% color=#D83B01 weight=64 icon="icons/Agent_icon_white.png"
+//% groups='["other", "Actions", "Inventory"]'
+namespace agent2 {
 
-    /**
-     * TODO: describe your function here
-     * @param value describe value here, eg: 5
-     */
-    //% block
-    export function fib(value: number): number {
-        return value <= 1 ? value : fib(value -1) + fib(value - 2);
+    //% block="Ga vooruit"
+    export function move_forward(){
+        agent.move(FORWARD, 1)
     }
 }
