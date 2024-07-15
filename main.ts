@@ -13,4 +13,11 @@ player.onChat("level1", function () {
         agent2.move_forward()
         agent.turn(LEFT_TURN)
     }
+    builder.teleportTo(positions.add(
+    agent.getPosition(),
+    pos(0, -2, 0)
+    ))
+    builder.place(WATER)
+    agent.destroy(DOWN)
+    agent.place(DOWN)
 })
