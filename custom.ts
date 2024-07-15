@@ -53,6 +53,10 @@ namespace CodeCosmos {
         agent.place(DOWN)
     }
 
+    //% block="Zet klaar (missie 2, level 1)"
+    export function setup_part2_level1(){
+        agent.teleport(world(2445, -1, 11), EAST);
+    }
 
 }
 
