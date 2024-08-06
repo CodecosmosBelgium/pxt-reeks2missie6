@@ -38,19 +38,27 @@ namespace CodeCosmos {
 
     //% block="place $color below agent"
     export function place_coral(color?: CoralTypes) {
-        if(color == CoralTypes.Red){
-            agent.setSlot(0);
-        }
-        if (color == CoralTypes.Blue) {
-            agent.setSlot(1);
-        }
-        agent.destroy(DOWN)
+        // if(color == CoralTypes.Red){
+        //     agent.setSlot(0);
+        // }
+        // if (color == CoralTypes.Blue) {
+        //     agent.setSlot(1);
+        // }
+        // agent.destroy(DOWN)
         builder.teleportTo(positions.add(
             agent.getPosition(),
             pos(0, -2, 0)
         ))
         builder.place(WATER)
-        agent.place(DOWN)
+        builder.move(SixDirection.Up, 1);
+        if(color == CoralTypes.Red){
+            builder.place(FIRE_CORAL_BLOCK)
+        }
+        if (color == CoralTypes.Blue) {
+            builder.place(TUBE_CORAL_BLOCK)
+        }
+        
+        // agent.place(DOWN)
     }
 
     //% block="Zet klaar (missie 2, level 1)"
