@@ -44,12 +44,12 @@ namespace CodeCosmos {
         if (color == CoralTypes.Blue) {
             agent.setSlot(1);
         }
+        agent.destroy(DOWN)
         builder.teleportTo(positions.add(
             agent.getPosition(),
             pos(0, -2, 0)
         ))
         builder.place(WATER)
-        agent.destroy(DOWN)
         agent.place(DOWN)
     }
 
