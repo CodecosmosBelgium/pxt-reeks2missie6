@@ -66,6 +66,14 @@ namespace CodeCosmos {
         agent.teleport(world(2445, -1, 11), EAST);
     }
 
+    //% block="is blok %block=block onder de agent"
+    //% block.loc.en="is block %block=block under the agent"
+    //% block.shadow=minecraftBlock
+    export function is_block_under_agent(block: number): boolean {
+        let block_under_agent = agent.getPosition().add(world(0,-1,0))
+        return blocks.testForBlock(block, block_under_agent)
+    }
+
 }
 
 /**
