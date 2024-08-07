@@ -4,8 +4,8 @@ player.execute("/scriptevent cc:getId " + mobs.queryTarget((mobs.target(MY_AGENT
 enum CoralTypes {
     //% block="Red Coral"
     Red,
-    //% block="Blue Coral"
-    Blue
+    //% block="Yellow Coral"
+    Yellow
 }
 
 //% color=190 weight=100 block="CodeCosmos"
@@ -54,8 +54,8 @@ namespace CodeCosmos {
         if(color == CoralTypes.Red){
             builder.place(FIRE_CORAL_BLOCK)
         }
-        if (color == CoralTypes.Blue) {
-            builder.place(TUBE_CORAL_BLOCK)
+        if (color == CoralTypes.Yellow) {
+            builder.place(HORN_CORAL_BLOCK)
         }
         
         // agent.place(DOWN)
