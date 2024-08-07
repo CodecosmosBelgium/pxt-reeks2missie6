@@ -74,6 +74,22 @@ namespace CodeCosmos {
         return blocks.testForBlock(block, block_under_agent)
     }
 
+
+    //% block="Zet klaar"
+    //% block.loc.en="Setup"
+    export function setup_mission2_part1() {
+        agent.teleport(world(2455, -1, 11), EAST)
+        blocks.place(REDSTONE_BLOCK, world(2456, -1, 4))
+
+    }
+
+    //% block="Zet klaar"
+    //% block.loc.en="Setup"
+    export function setup_mission2_part2() {
+        agent.teleport(world(2467, -1, 11), EAST)
+        blocks.place(REDSTONE_BLOCK, world(2457, -1, 4))
+    }
+
 }
 
 /**
