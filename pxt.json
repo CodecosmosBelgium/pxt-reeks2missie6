@@ -12,7 +12,8 @@
         "custom.ts",
         "t_level1.md",
         "t_level2.md",
-        "t_level3.md"
+        "t_level3.md",
+        "t_level2part1.md"
     ],
     "testFiles": [
         "test.ts"
