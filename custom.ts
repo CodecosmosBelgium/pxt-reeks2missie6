@@ -99,7 +99,7 @@ namespace CodeCosmos {
     //% block.loc.en="Setup"
     export function setup_mission2_part1() {
         blocks.place(REDSTONE_BLOCK, world(2456, -1, 4))
-        loops.pause(100)
+        loops.pause(500)
         agent.teleport(world(2455, -1, 11), EAST)
     }
 
@@ -107,7 +107,7 @@ namespace CodeCosmos {
     //% block.loc.en="Setup"
     export function setup_mission2_part2() {
         blocks.place(REDSTONE_BLOCK, world(2457, -1, 4))
-        loops.pause(100)
+        loops.pause(500)
         agent.teleport(world(2467, -1, 11), EAST)
     }
 
