@@ -7,7 +7,7 @@
 # Missie 6
 ```blocks
 player.onChat("run3wrong", function () {
-    Codecosmos.setup_mission3_part3();
+    CodeCosmos.setup_mission3_part3();
     while (!(CodeCosmos.is_block_under_agent(GRASS))) {
         if (CodeCosmos.is_block_under_agent(DIRT)) {
             agent.turn(RIGHT_TURN)
@@ -36,7 +36,7 @@ player.onChat("run3wrong", function () {
 
 ```template
 player.onChat("level3", function () {
-    Codecosmos.setup_mission3_part3();
+    CodeCosmos.setup_mission3_part3();
     while (!(CodeCosmos.is_block_under_agent(GRASS))) {
         if (CodeCosmos.is_block_under_agent(DIRT)) {
             agent.turn(RIGHT_TURN)
@@ -63,5 +63,5 @@ player.onChat("level3", function () {
 })
 ```
 
-## Oefening 3
+## Oefening 
 There is no exercise.
