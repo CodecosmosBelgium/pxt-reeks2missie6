@@ -25,5 +25,10 @@
     "files.exclude": {
         "**/pxt_modules": true,
         "**/.pxt": true
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#3E2443",
+        "titleBar.activeBackground": "#56335E",
+        "titleBar.activeForeground": "#FBF9FC"
     }
 }

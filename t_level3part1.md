@@ -7,7 +7,7 @@
 # Missie 6
 ```blocks
 player.onChat("runWrong", function () {
-    agent.teleport(world(2488, -2, 7), SOUTH)
+    Codecosmos.setup_mission3_part1();
     agent.move(FORWARD, 3)
     agent.turn(LEFT_TURN)
     for (let index = 0; index < 3; index++) {
@@ -26,8 +26,8 @@ player.onChat("runWrong", function () {
 ```
 
 ```template
-player.onChat("runWrong", function () {
-    agent.teleport(world(2488, -2, 7), SOUTH)
+player.onChat("level1", function () {
+    Codecosmos.setup_mission3_part1();
     agent.move(FORWARD, 3)
     agent.turn(LEFT_TURN)
     for (let index = 0; index < 3; index++) {
