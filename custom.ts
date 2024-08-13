@@ -8,6 +8,17 @@ enum CoralTypes {
     Yellow
 }
 
+enum LookDirection{
+    //% block="Boven"
+    Above,
+
+    //% block="Onder"
+    Below,
+
+    //% block="Voor"
+    // InFront
+}
+
 //% color=190 weight=100 block="CodeCosmos"
 namespace CodeCosmos {
     //% block="Zet klaar (level1)"
@@ -61,6 +72,19 @@ namespace CodeCosmos {
         // agent.place(DOWN)
     }
 
+    //% block="is $block $direction agent"
+    //% block.shadow=minecraftBlock
+    export function is_block_direction_agent(block: number, direction: LookDirection){
+        let pos;
+        switch(direction){
+            case LookDirection.Above:
+                pos = (0, 1, 0)
+                break;
+            case LookDirection.Below:
+                pos = (0, -1, 0)
+                break;
+        }
+    }
 
     //% block="is blok %block=block onder de agent"
     //% block.loc.en="is block %block=block under the agent"
@@ -98,6 +122,12 @@ namespace agent2 {
 
     //% block="Ga vooruit"
     export function move_forward(){
-        agent.move(FORWARD, 1)
+        agent.move(FORWARD, 1);
+    }
+    
+    //% block="Draai om"
+    export function turn_around() {
+        agent.turn(LEFT)
+        agent.turn(LEFT)
     }
 }
