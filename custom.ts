@@ -111,6 +111,26 @@ namespace CodeCosmos {
         agent.teleport(world(2467, -1, 11), EAST)
     }
 
+
+    //% block="Zet klaar"
+    //% block.loc.en="Setup"
+    export function setup_mission3_part1() {
+        agent.teleport(world(2488, -2, 7), SOUTH)
+    }
+
+    //% block="Zet klaar"
+    //% block.loc.en="Setup"
+    export function setup_mission3_part2() {
+        agent.teleport(world(2492, -2, 26), SOUTH)
+    }
+
+    //% block="Zet klaar"
+    //% block.loc.en="Setup"
+    export function setup_mission3_part3() {
+        agent.teleport(world(2487, -2, 36), EAST)
+    }
+
+
 }
 
 /**
