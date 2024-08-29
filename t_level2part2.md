@@ -19,7 +19,7 @@ player.onChat("level2", function () {
 ```template
 player.onChat("level2", function () {
     CodeCosmos.setup_mission2_part2()
-    for (let index = 0; index < 14; index++) {
+    for (let index = 0; index < 15; index++) {
     }
 })
 ```
