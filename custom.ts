@@ -30,7 +30,7 @@ namespace CodeCosmos {
     //% block="Zet klaar (level2)"
     //% block.loc.en="Setup (level2)"
     export function setup_level2(){
-        agent.teleport(world(2446, -2, 40), NORTH)
+        agent.teleport(world(2446, -2, 40), EAST)
     }
 
     //% block="Zet klaar (level3)"
