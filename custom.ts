@@ -25,17 +25,17 @@ enum LookDirection{
 
 //% color=190 weight=100 block="CodeCosmos"
 namespace CodeCosmos {
-    //% block="Setup (Level 1)"
+    //% block="Setup"
     export function setup_level1() {
         agent.teleport(world(2451, -2, 57), 0)
     }
 
-    //% block="Setup (Level 2)"
+    //% block="Setup"
     export function setup_level2(){
         agent.teleport(world(2446, -2, 40), EAST)
     }
 
-    //% block="Setup (Level 3)"
+    //% block="Setup"
     //% block.loc.en="Setup"
     export function setup_level3() {
         agent.teleport(world(2447, -2, 30), NORTH)
@@ -99,7 +99,7 @@ namespace CodeCosmos {
     }
 
 
-    //% block="Setup (Level 1)"
+    //% block="Setup"
     //% block.loc.en="Setup"
     export function setup_mission2_part1() {
         blocks.place(REDSTONE_BLOCK, world(2456, -1, 4))
@@ -107,7 +107,7 @@ namespace CodeCosmos {
         agent.teleport(world(2455, -1, 11), EAST)
     }
 
-    //% block="Setup (Level 1)"
+    //% block="Setup"
     //% block.loc.en="Setup"
     export function setup_mission2_part2() {
         blocks.place(REDSTONE_BLOCK, world(2457, -1, 4))
@@ -116,19 +116,19 @@ namespace CodeCosmos {
     }
 
 
-    //% block="Setup (Level 1)"
+    //% block="Setup"
     //% block.loc.en="Setup"
     export function setup_mission3_part1() {
         agent.teleport(world(2488, -2, 7), SOUTH)
     }
 
-    //% block="Setup (Level 2)"
+    //% block="Setup"
     //% block.loc.en="Setup"
     export function setup_mission3_part2() {
         agent.teleport(world(2492, -2, 26), SOUTH)
     }
 
-    //% block="Setup (Level 3)"
+    //% block="Setup"
     //% block.loc.en="Setup"
     export function setup_mission3_part3() {
         agent.teleport(world(2487, -2, 36), EAST)
