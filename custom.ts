@@ -31,7 +31,6 @@ namespace CodeCosmos {
     }
 
     //% block="Setup (Level 2)"
-    //% block.loc.en="Setup"
     export function setup_level2(){
         agent.teleport(world(2446, -2, 40), EAST)
     }
