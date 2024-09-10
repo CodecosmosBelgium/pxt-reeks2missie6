@@ -25,7 +25,7 @@ enum LookDirection{
 
 //% color=190 weight=100 block="CodeCosmos"
 namespace CodeCosmos {
-    //% block="Zet klaar"
+    //% block="Zet klaar(level1)"
     export function setup_level1() {
         agent.teleport(world(2451, -2, 57), 0)
     }
