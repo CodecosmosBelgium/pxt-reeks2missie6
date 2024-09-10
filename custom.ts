@@ -26,7 +26,9 @@ enum LookDirection{
 //% color=190 weight=100 block="CodeCosmos"
 namespace CodeCosmos {
     //% block="Zet klaar"
-    //% block.loc.en="Setup"
+    //% block.loc.en="Setup (english)"
+    //% block.loc.nl="Zet Klaar (Dutch)"
+    //% block.loc.nl_NL="zet klaarder"
     export function setup_level1() {
         agent.teleport(world(2451, -2, 57), 0)
     }
@@ -146,7 +148,7 @@ namespace CodeCosmos {
 //% color=#D83B01 weight=64 icon="icons/Agent_icon_white.png"
 namespace agent2 {
 
-    //% block="Go forward"
+    //% block="Go Forward"
     //% block.loc.nl="Ga Vooruit"
     export function move_forward(){
         agent.move(FORWARD, 1);
