@@ -17,7 +17,9 @@
         "t_level2part2.md",
         "t_level3part1.md",
         "t_level3part2.md",
-        "t_level3part3.md"
+        "t_level3part3.md",
+
+        "_locales/nl/reeks2missie6.json"
     ],
     "testFiles": [
         "test.ts"
