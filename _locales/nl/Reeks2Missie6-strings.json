@@ -1,18 +1,18 @@
 {
     "CodeCosmos.setup_level1|block": "Zet Klaar (level 1)",
-    "CodeCosmos.setup_level2|": "Zet Klaar (level 2)",
-    "CodeCosmos.setup_level3|": "Zet Klaar (level 3)",
+    "CodeCosmos.setup_level2|block": "Zet Klaar (level 2)",
+    "CodeCosmos.setup_level3|block": "Zet Klaar (level 3)",
 
-    "CodeCosmos.place_coral": "Plaats $color onder de agent",
-    "CodeCosmos.is_block_direction_agent": "Is $block $direction agent",
-    "CodeCosmos.is_block_under_agent": "is $block onder de agent",
-    "CodeCosmos.setup_mission2_part1": "Zet Klaar (missie 2 deel 1)",
-    "CodeCosmos.setup_mission2_part2": "Zet Klaar (missie 2 deel 2)",
-    "CodeCosmos.setup_mission3_part1": "Zet Klaar (missie 3 deel 1)",
-    "CodeCosmos.setup_mission3_part2": "Zet Klaar (missie 3 deel 2)",
-    "CodeCosmos.setup_mission3_part3": "Zet Klaar (missie 3 deel 3)",
+    "CodeCosmos.place_coral|block": "Plaats $color onder de agent",
+    "CodeCosmos.is_block_direction_agent|block": "Is $block $direction agent",
+    "CodeCosmos.is_block_under_agent|block": "is $block onder de agent",
+    "CodeCosmos.setup_mission2_part1|block": "Zet Klaar (missie 2 deel 1)",
+    "CodeCosmos.setup_mission2_part2|block": "Zet Klaar (missie 2 deel 2)",
+    "CodeCosmos.setup_mission3_part1|block": "Zet Klaar (missie 3 deel 1)",
+    "CodeCosmos.setup_mission3_part2|block": "Zet Klaar (missie 3 deel 2)",
+    "CodeCosmos.setup_mission3_part3|block": "Zet Klaar (missie 3 deel 3)",
 
-    "agent2.move_forwards": "Ga vooruit",
-    "agent2.turn_around"  : "Draai om",
+    "agent2.move_forwards|block": "Ga vooruit",
+    "agent2.turn_around|block"  : "Draai om",
     "{id:category}CodeCosmos": "CodeCosmos"
   }
