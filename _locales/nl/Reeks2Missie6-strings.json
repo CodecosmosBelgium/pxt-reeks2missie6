@@ -12,7 +12,7 @@
     "CodeCosmos.setup_mission3_part2|block": "Zet Klaar (missie 3 deel 2)",
     "CodeCosmos.setup_mission3_part3|block": "Zet Klaar (missie 3 deel 3)",
 
-    "agent2.move_forwards|block": "Ga vooruit",
+    "agent2.move_forward|block": "Ga vooruit",
     "agent2.turn_around|block"  : "Draai om",
     "{id:category}CodeCosmos": "CodeCosmos"
   }
